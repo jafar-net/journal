@@ -1,0 +1,24 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Ben",
+			"email": "bmosley1132@gmail.com",
+			"dateJoined": "1630519015845"
+		}
+	],
+	"journalEntries": [
+		{
+			"id":1,
+			"conceptsCovered": "",
+			"dateOfEntry": "1630519015845"
+		}
+	],
+	"moods":[
+		{
+			"id": 1,
+			"mood": "Happy",
+			"dateOfMood": "1630519015845"
+		}
+	]
+}
