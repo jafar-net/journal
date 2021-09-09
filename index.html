@@ -6,37 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
     <title>Ben Mosley NSS Journal</title>
+    <script type="module" src="./scripts/main.js"></script>
 </head>
     <header>
-   
+<h2>Daily Journal</h2>
     </header>
 <main>
 <body>
-    <h2>Daily Journal</h2>
 
-<form action="">
+
+<form class="input-form", action="date">
     <fieldset>
         <label for="journalDate">Date of Entry</label>
         <input type="date" id="journalDate" name="journalDate">
 </form>
-</div>
 
-<form>
+<form action="concepts">
 Concepts Covered<input type="text"></input>
 </form>
 </div>
 
 <form>
 <label for="mood">What's Your Mood Like Today?:</label>  
-<select name="cars" id="cars">
+<select name="mood" id="mood">
          <option value="learning">Learning a lot!</option>
          <option value="practice">Learning a lot, but still need some practice.</option>
          <option value="struggling">Not quite getting it. May need more explaining.</option>
          <option value="bad">I have no idea what's going on.</option>
        </select>
 </form>
-
-
+<form>
+    <label for="journalEntry">Journal Entry</label>
+    <textarea id="journalEntry" name="journalEntry" cols="20" rows="1"></textarea>
+</form>
        <input type="submit" value="Record Journal Entry">
     </fieldset>
 
